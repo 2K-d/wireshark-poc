@@ -1,0 +1,98 @@
+Frame 610: Packet, 88 bytes on wire (704 bits), 88 bytes captured (704 bits) on interface any, id 0
+    Section number: 1
+    Interface id: 0 (any)
+        Interface name: any
+    Encapsulation type: Linux cooked-mode capture v1 (25)
+    Arrival Time: Oct 10, 2025 05:54:54.351996391 CEST
+    UTC Arrival Time: Oct 10, 2025 03:54:54.351996391 UTC
+    Epoch Arrival Time: 1760068494.351996391
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 29.159 microseconds]
+    [Time delta from previous displayed frame: 29.159 microseconds]
+    [Time since reference or first frame: 4.457223267 seconds]
+    Frame Number: 610
+    Frame Length: 88 bytes (704 bits)
+    Capture Length: 88 bytes (704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: sll:ethertype:ipv6:tcp]
+    Character encoding: ASCII (0)
+Linux cooked capture v1
+    Packet type: Sent by us (4)
+    Link-layer address type: Ethernet (1)
+    Link-layer address length: 6
+    Source: ASUSTekCOMPU_07:46:04 (10:7c:61:07:46:04)
+    Unused: 0000
+    Protocol: IPv6 (0x86dd)
+Internet Protocol Version 6, Src: 2a01:cb08:52b:3000:a624:db9d:fc50:50c4, Dst: 2a00:1450:4007:3::a
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... 1000 0111 1001 0010 0010 = Flow Label: 0x87922
+    Payload Length: 32
+    Next Header: TCP (6)
+    Hop Limit: 64
+    Source Address: 2a01:cb08:52b:3000:a624:db9d:fc50:50c4
+        [Address Space: Global Unicast]
+    Destination Address: 2a00:1450:4007:3::a
+        [Address Space: Global Unicast]
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 33102, Dst Port: 443, Seq: 7917, Ack: 421813, Len: 0
+    Source Port: 33102
+    Destination Port: 443
+    [Stream index: 0]
+    [Stream Packet Number: 587]
+    [Conversation completeness: Incomplete (12)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..0. = SYN-ACK: Absent
+        .... ...0 = SYN: Absent
+        [Completeness Flags: ··DA··]
+    [TCP Segment Len: 0]
+    Sequence Number: 7917    (relative sequence number)
+    Sequence Number (raw): 3434321575
+    [Next Sequence Number: 7917    (relative sequence number)]
+    Acknowledgment Number: 421813    (relative ack number)
+    Acknowledgment number (raw): 1493545540
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 335
+    [Calculated window size: 335]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x88c1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 471036099, TSecr 2525519918
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 471036099
+            Timestamp echo reply: 2525519918
+    [Timestamps]
+        [Time since first frame in this TCP stream: 4.457223267 seconds]
+        [Time since previous frame in this TCP stream: 29.159 microseconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 609]
+        [The RTT to ACK the segment was: 29.159 microseconds]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+This is Hello version 0.0.0, a Wireshark postdissector plugin prototype
+
