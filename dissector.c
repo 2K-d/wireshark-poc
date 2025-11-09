@@ -8,8 +8,8 @@
  */
 
 #define WS_BUILD_DLL
+#define WS_PLUGIN_DESC_DISSECTOR    (1UL << 0)
 #include <wireshark.h>
-#include <wsutil/plugins.h>
 #include <epan/packet.h>
 #include <epan/proto.h>
 
